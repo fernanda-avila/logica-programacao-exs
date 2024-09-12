@@ -26,17 +26,17 @@ do {
             console.log("Diesel");
             break;
         case 4:
-            // Código para encerrar o programa
+
             console.log("MUITO OBRIGADO");
             break;
         default:
-            // Código inválido
+   
             console.log("Código inválido. Por favor, digite um código válido.");
             break;
     }
 } while (codigo !== 4);
 
-// Exibir a quantidade de clientes que abasteceram cada tipo de combustível
+
 console.log(`Quantidade de clientes que abasteceram Álcool: ${alcool}`);
 console.log(`Quantidade de clientes que abasteceram Gasolina: ${gasolina}`);
 console.log(`Quantidade de clientes que abasteceram Diesel: ${diesel}`);
