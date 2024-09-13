@@ -36,7 +36,6 @@ switch (animal.toLowerCase()) {
     case 'sapo':
     case 'rã':
     case 'salamandra':
-    case 'tritão':
     case 'perereca':
         classificacao = 'Anfíbio';
         break;
@@ -45,7 +44,6 @@ switch (animal.toLowerCase()) {
     case 'salmão':
     case 'tubarão':
     case 'truta':
-    case 'barracuda':
     case 'betta':
         classificacao = 'Peixe';
         break;
