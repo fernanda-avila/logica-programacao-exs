@@ -5,21 +5,10 @@ const matriz = [
     [-7, 8, 9]
 ];
 
-// Função para somar apenas valores positivos
-function somarValoresPositivos(matriz) {
-    return matriz.reduce((somaTotal, vetor) => {
-        // Soma os valores positivos de cada vetor
-        const somaPositivos = vetor.reduce((soma, valor) => {
-            return valor > 0 ? soma + valor : soma;
-        }, 0);
-        
-        // Adiciona a soma dos positivos ao total geral
-        return somaTotal + somaPositivos;
-    }, 0);
-}
-
-// Calcula a soma dos valores positivos
-const somaPositivos = somarValoresPositivos(matriz);
+// Achata a matriz e soma apenas os valores positivos
+const somaPositivos = matriz.flat().reduce((soma, valor) => {
+    return valor > 0 ? soma + valor : soma;
+}, 0);
 
 // Exibe o resultado
 console.log('Soma dos valores positivos:', somaPositivos);
