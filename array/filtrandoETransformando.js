@@ -7,7 +7,6 @@ const filtrarETransformar = (matriz) => {
         .map(num => num * 3);           // Multiplica os números pares por 3
 };
 
-// Exemplo de matriz
 const matriz = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // Aplicando a função
